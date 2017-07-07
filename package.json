@@ -1,0 +1,108 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "protoo-client@^1.1.4",
+        "scope": null,
+        "escapedName": "protoo-client",
+        "name": "protoo-client",
+        "rawSpec": "^1.1.4",
+        "spec": ">=1.1.4 <2.0.0",
+        "type": "range"
+      },
+      "D:\\Dropbox\\projects\\darkmatter"
+    ]
+  ],
+  "_from": "protoo-client@>=1.1.4 <2.0.0",
+  "_id": "protoo-client@1.1.4",
+  "_inCache": true,
+  "_location": "/protoo-client",
+  "_nodeVersion": "7.6.0",
+  "_npmOperationalInternal": {
+    "host": "packages-18-east.internal.npmjs.com",
+    "tmp": "tmp/protoo-client-1.1.4.tgz_1491563491019_0.1851368760690093"
+  },
+  "_npmUser": {
+    "name": "ibc",
+    "email": "ibc@aliax.net"
+  },
+  "_npmVersion": "4.1.2",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "protoo-client@^1.1.4",
+    "scope": null,
+    "escapedName": "protoo-client",
+    "name": "protoo-client",
+    "rawSpec": "^1.1.4",
+    "spec": ">=1.1.4 <2.0.0",
+    "type": "range"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/protoo-client/-/protoo-client-1.1.4.tgz",
+  "_shasum": "717d9b4adc9840a4da71655d7e7f195c50caf96e",
+  "_shrinkwrap": null,
+  "_spec": "protoo-client@^1.1.4",
+  "_where": "D:\\Dropbox\\projects\\darkmatter",
+  "author": {
+    "name": "Iñaki Baz Castillo",
+    "email": "ibc@aliax.net"
+  },
+  "browserify": {
+    "transform": [
+      [
+        "babelify",
+        {
+          "presets": [
+            "es2015"
+          ]
+        }
+      ]
+    ]
+  },
+  "bugs": {
+    "url": "https://github.com/ibc/protoo/issues"
+  },
+  "dependencies": {
+    "debug": "^2.6.3",
+    "random-number": "^0.0.7",
+    "retry": "^0.10.1",
+    "websocket": "^1.0.24"
+  },
+  "description": "protoo JavaScript client library",
+  "devDependencies": {
+    "gulp": "git://github.com/gulpjs/gulp.git#4.0",
+    "gulp-eslint": "^3.0.1"
+  },
+  "directories": {},
+  "dist": {
+    "shasum": "717d9b4adc9840a4da71655d7e7f195c50caf96e",
+    "tarball": "https://registry.npmjs.org/protoo-client/-/protoo-client-1.1.4.tgz"
+  },
+  "engines": {
+    "node": ">=4.0.0"
+  },
+  "homepage": "http://protoojs.org",
+  "license": "MIT",
+  "main": "lib/index.js",
+  "maintainers": [
+    {
+      "name": "ibc",
+      "email": "ibc@aliax.net"
+    }
+  ],
+  "name": "protoo-client",
+  "optionalDependencies": {
+    "websocket": "^1.0.24"
+  },
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ibc/protoo.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.1.4"
+}
